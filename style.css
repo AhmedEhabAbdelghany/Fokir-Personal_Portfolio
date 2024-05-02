@@ -1,0 +1,594 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+/* Start Home section */
+
+
+/* Home Section */
+
+.Overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.Home .Nav-Parent {
+    width: 70%;
+    margin: auto;
+}
+
+.Home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/hero\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Start Navigation Section */
+
+.Home .Nav {
+    width: 100%;
+    height: 6vh;
+    overflow: hidden;
+}
+
+.Home .Nav .Nav-Logo {
+    width: 20%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.Home .Nav .Nav-Logo h2 {
+    margin: 15px;
+}
+
+.Home .Nav .Nav-Logo a {
+    text-decoration: none;
+    color: #ff305b;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Home .Nav .Nav-Links {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+
+.Home .Nav .Nav-Links ul {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    margin: 18px;
+}
+
+.Home .Nav .Nav-Links ul li {
+    float: left;
+}
+
+.Home .Nav .Nav-Links ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin: 15px;
+    transition: 0.5s all;
+}
+
+.Home .Nav .Nav-Links .Selected a {
+    color: #ff305b;
+}
+
+.Home .Nav .Nav-Links ul li a:hover {
+    color: #ff305b;
+}
+
+
+/* End Navigation Section */
+
+
+/* Start Home Details section */
+
+.Home-Details {
+    width: 100%;
+    margin-top: 35vh;
+    text-align: center;
+}
+
+.Home-Details h3,
+h4 {
+    color: white;
+}
+
+.Home-Details h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.Home-Details h1 {
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.Home-Details h4 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+
+/* Typed Animation */
+
+.typed-cursor {
+    /* animation: blink; */
+    color: white;
+    margin-left: 3px;
+}
+
+
+/* End Typed Animation  */
+
+
+/* End Home Details section */
+
+
+/* End Home section */
+
+
+/* Hello Section  */
+
+.Hello-Parent {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.Hello-Parent .Hello-Child {
+    width: 60%;
+    margin: auto;
+    padding: 100px;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Border {
+    width: 40vh;
+    height: 45vh;
+    background-color: transparent;
+    border: 8px solid #555555;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Border .Hello-Child-Image {
+    width: 110%;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Border .Hello-Child-Image-Hover {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: 0.5s all;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Border .Hello-Child-Image-Hover i {
+    margin-top: 55%;
+    padding: 8px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Border .Hello-Child-Image-Hover a {
+    color: white;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Border .Hello-Child-Image-Hover i:hover {
+    color: #ff305b;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Border .Hello-Child-Image img {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+/* Image Hover */
+
+.Hello-Parent .Hello-Child .Hello-Child-Border .Hello-Child-Image:hover .Hello-Child-Image-Hover {
+    top: 0;
+}
+
+
+/* End Image Hover */
+
+.Hello-Parent .Hello-Child .Hello-Child-Info {
+    width: 51%;
+    height: 420px;
+    float: right;
+    display: inline-block;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info h2 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 25px;
+    padding-left: 13px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info h2:after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    border: 2px solid #ff305b;
+    background-color: #ff305b;
+    width: 1px;
+    height: 22px;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info p {
+    display: block;
+    width: 80%;
+    font-size: 16px "Roboto", sans-serif;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding: 0px 0px 15px;
+    margin: 0px 0px 15px;
+    color: #555555;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info hr.Dashed {
+    border: none;
+    border-bottom: 1px dashed #555555;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info ul li span {
+    color: #333333;
+    font-weight: bold;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info ul li {
+    font-size: 16px "Roboto", sans-serif;
+    color: #555555;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info ul li:nth-child(-n + 3) {
+    float: left;
+    width: 60%;
+    /* margin-left: 90px; */
+}
+
+
+/* Div Buttons */
+
+.Hello-Parent .Hello-Child .Hello-Child-Info .Info-Buttons {
+    width: 100%;
+    float: left;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info .Info-Buttons button {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ff305b;
+    color: white;
+    border: 0;
+    margin-right: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.Hello-Parent .Hello-Child .Hello-Child-Info .Info-Buttons button:hover {
+    background-color: rgb(255, 60, 0);
+}
+
+
+/* End Div Buttons */
+
+
+/* End Hello section */
+
+
+/* Our Services section */
+
+.Our-Services-Parent {
+    display: inline-block;
+    width: 100%;
+    height: 60vh;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.Our-Services-Parent .Our-Services-Child {
+    width: 60%;
+    margin: auto;
+}
+
+.Our-Services-Parent .Our-Services-Child .Our-Services-Child-Header h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 90px;
+    color: #333;
+    margin: 1px;
+}
+
+hr.Dashed-Header {
+    border: none;
+    border-bottom: 1px solid #ff305b;
+    width: 5%;
+}
+
+hr.Dashed-Header2 {
+    margin-top: 1px;
+    border: none;
+    border-bottom: 1px solid #ff305b;
+    width: 15%;
+}
+
+.Our-Services-Parent .Our-Services-Child .Our-Services-Child-Services {
+    width: 100%;
+}
+
+.Our-Services-Parent .Our-Services-Child .Our-Services-Child-Services .Our-Services-Details {
+    width: 25%;
+    height: auto;
+    float: left;
+    transition: 0.5s all;
+    margin-top: 50px;
+}
+
+.Our-Services-Parent .Our-Services-Child .Our-Services-Child-Services .Our-Services-Details h3 {
+    font-size: 25px 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.Our-Services-Parent .Our-Services-Child .Our-Services-Child-Services .Our-Services-Details p {
+    font-size: 16px 'Source Sans Pro', sans-serif;
+    color: #555555;
+    width: 90%;
+}
+
+.Our-Services-Parent .Our-Services-Child .Our-Services-Child-Services .Our-Services-Details i {
+    font-size: 25px;
+    color: #ff305b;
+    padding: 20px;
+    transition: 0.5s all;
+}
+
+.Our-Services-Details:hover {
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Our-Services-Details:hover i {
+    transform: scale(1.2);
+}
+
+
+/* End Section Our Services */
+
+
+/* section Client's Feedback */
+
+
+/* End Section Client's Feedback */
+
+
+/* Section Our Blog */
+
+.Our-Blog-Parent {
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 85vh;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.Our-Blog-Parent .Our-Blog-Child {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.Our-Blog-Parent .Our-Blog-Child h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 90px;
+    margin: 1px;
+}
+
+.Our-Blog-Details {
+    width: 33.3%;
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Video {
+    width: 90%;
+    background-color: white;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Video img,
+iframe {
+    width: 100%;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Video iframe {
+    width: 100%;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Text {
+    width: 90%;
+    text-align: left;
+    line-height: 2.1;
+    background-color: white;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Text span {
+    display: block;
+    margin-left: 15px;
+    color: #555555;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Text a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    transition: 0.5s all;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Text p {
+    width: 95%;
+    margin-left: 15px;
+}
+
+.Our-Blog-Details .Our-Blog-Details-Text a:hover {
+    color: #ff305b;
+}
+
+
+/* End Section Our Blog */
+
+
+/* Section Contact US */
+
+.Contuct-US-Parent {
+    display: inline-block;
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Contuct-US-Parent .Contact-Us-Child {
+    text-align: center;
+}
+
+.Contuct-US-Parent .Contact-Us-Child form {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Contuct-US-Parent .Contact-Us-Child form input {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    outline: none;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.Contuct-US-Parent .Contact-Us-Child form input:nth-child(3) {
+    width: 94%;
+}
+
+.Contuct-US-Parent .Contact-Us-Child form input:focus {
+    border: 2px solid #ff305b;
+}
+
+.Contuct-US-Parent .Contact-Us-Child form textarea {
+    width: 96%;
+    float: left;
+    resize: vertical;
+    overflow: auto;
+    outline: none;
+    max-height: 200px;
+}
+
+.Contuct-US-Parent .Contact-Us-Child form textarea:focus {
+    border: 2px solid #ff305b;
+}
+
+.Contuct-US-Parent .Contact-Us-Child button {
+    float: left;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 30px;
+    background-color: #ff305b;
+    transition: 0.5s all;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Contuct-US-Parent .Contact-Us-Child button:hover {
+    background-color: orangered;
+}
+
+
+/* End Section Contact US */
+
+
+/* Section footer */
+
+.Footer-Parent {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    color: white;
+}
+
+.Footer-Parent .Footer-Child {
+    text-align: center;
+    width: 100%;
+    transition: 0.5s all;
+}
+
+.Footer-Parent .Footer-Child i {
+    margin-top: 5%;
+    padding: 8px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.Footer-Parent .Footer-Child a {
+    color: white;
+}
+
+.Footer-Parent .Footer-Child i:hover {
+    color: #ff305b;
+}
+
+
+/* End Section Footer */
